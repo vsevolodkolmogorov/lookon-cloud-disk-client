@@ -1,0 +1,22 @@
+.createMerchandiseCol {
+    padding: 10px;
+}
+
+.createMerchandiseDropdownMenu {
+    width: 520px;
+}
+
+.createMerchandiseDropdownDiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+}
+
+
+.createMerchandiseDropdownDiv img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

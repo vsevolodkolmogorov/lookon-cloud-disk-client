@@ -1,0 +1,137 @@
+.merchandiseFullInfo .merchName {
+    color: #000000;
+    line-height: 1 !important;
+    font-weight: 500 !important;
+    font-size: 26px !important;
+    text-transform: uppercase;
+}
+
+.merchandiseFullInfo {
+    font-family: microsoftsansserif !important;
+}
+
+.merchandiseFullInfo .brandName {
+    color: #777;
+    font-size: 14px !important;
+    font-weight: 300 !important;
+}
+
+.merchandiseFullInfoHead {
+    margin-bottom: 20px;
+}
+
+.merchandiseFullInfoPrice {
+    margin-bottom: 10px;
+}
+
+.merchandiseFullInfoPrice span{
+    color: #000000 !important;
+    font-weight: lighter !important;
+    line-height: 1 !important;
+    font-size: 20px !important;
+}
+
+.merchandiseFullInfoDescription {
+    max-width: 460px;
+}
+
+.merchandiseFullInfoDescription span{
+    font-size: 14px !important;
+    line-height: 1.55 !important;
+}
+
+.merchandiseFullInfoRights {
+    flex-direction: column;
+}
+
+.merchandiseFullInfoRights span{
+    font-size: 14px !important;
+    line-height: 1.55 !important;
+}
+
+.carousel {
+    height: 600px !important;
+}
+
+.merchContainer img{
+    width: 100%;
+}
+
+.btnForm {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+div.merchandiseInfo .row {
+    margin-left: 0px !important;
+}
+
+.merchandiseInfo div.row{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 300px;
+}
+
+div.payment {
+    padding: 20px;
+    margin-left: 20px;
+    border: 3px solid #f3f4f5;
+    max-height: 160px;
+}
+
+.btnErrorAuthVisible {
+    display: block;
+}
+
+.btnErrorAuthInvisible {
+    display: none;
+}
+
+.merchSizes {
+    border: 1px solid black !important;
+    padding: 5px;
+    margin-right: 10px;
+    width: 55px !important;
+    color: white !important;
+    font-size: 12px !important;
+}
+
+
+.merchCarousel {
+    height: 550px;
+}
+
+.merchCarousel img{
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+}
+
+.btnAddToBasket button:hover {
+    color: white !important;
+}
+
+.description {
+    max-width: 410px;
+}
+
+@media (max-width: 768px) {
+    .merchCarousel {
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+    }
+}
+
+.merchCountButtons button{
+    width: 35px !important;
+    margin: 5px;
+}
+
+.merchandiseColumnSlider {
+    margin-left: 20px;
+}

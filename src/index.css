@@ -1,0 +1,72 @@
+html, body {
+    height: 100%;
+}
+
+div#root {
+    background-color: #faf9f8;
+    background-position: 0 0;
+    background-size: cover;
+    min-height:100%;
+}
+
+@font-face {
+    font-family: moniqaMediumDisplay;
+    src: url("../public/Moniqa-MediumDisplay.ttf");
+}
+
+@font-face {
+    font-family: microsoftsansserif;
+    src: url("../public/microsoftsansserif.ttf");
+}
+
+
+@font-face {
+    font-family: BebasNeue;
+    src: url("../public/BebasNeue.ttf");
+}
+
+
+h2 {
+    font-family: moniqaMediumDisplay;
+    color: #000000;
+    font-size: 50px;
+}
+
+div.merchPriceText {
+    margin-top: 7px;
+    font-family: microsoftsansserif !important;
+    font-size: 15px;
+    color: #000000;
+    font-weight: 500;
+}
+
+div.merchNameText {
+    font-family: microsoftsansserif !important;
+    font-size: 15px;
+    color: #000000;
+    line-height: 1;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+button {
+    font-family: microsoftsansserif !important;
+    color: black !important;
+    font-size: 15px !important;
+    text-align: center !important;
+    width: 160px !important;
+    border-radius: 5px !important;
+}
+
+
+.dropdown-item {
+    width: 95% !important;
+}
+
+.btn-close {
+    width: 1em !important;
+}
+
+
+
+

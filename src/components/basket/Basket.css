@@ -1,0 +1,140 @@
+.selectedMerch .card {
+    border: none;
+    flex-direction: inherit;
+    align-items: center;
+}
+
+.basketContainer h3 {
+    margin: 0px;
+}
+
+.basketContainer h3 {
+    padding-top: 64px;
+}
+
+.basketContainer p {
+    margin: 0px;
+}
+
+.checkout button {
+    padding: 5px 10px;
+    width: 60%;
+}
+
+.basketItemWrapper .card {
+    justify-content: space-between;
+}
+
+.basketItemWrapper img {
+    margin-right: 15px;
+}
+
+.merchandiseContent {
+    max-width: 670px;
+    gap: 45px;
+    margin-right: 15px;
+}
+
+.enableButton {
+    color: white;
+    background: black;
+}
+
+.basketItemButton {
+    display: flex;
+}
+
+.basketItemButton button {
+    width: 40px !important;
+    margin: 2px;
+}
+
+button#btnDelete{
+    all:unset !important;
+    cursor: pointer !important;
+    color: #6e6e6e !important;
+    border-bottom: 1px solid #6e6e6e !important;
+}
+
+button#btnDelete:hover {
+    all: unset !important;;
+    cursor: pointer !important;;
+    color: #000 !important;;
+    border-bottom: 1px solid #000 !important;;
+}
+
+button#btnPay {
+    margin-top: 10px;
+    color: white !important;
+}
+
+.basketImageWrapper {
+    height: 150px;
+    width: 150px;
+    margin-right: 15px;
+}
+
+.basketImageWrapper img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: bottom;
+}
+
+
+@media (max-width: 1200px) {
+    .basketContainer {
+        display: flex !important;
+        flex-direction: column;
+    }
+    .basketItems {
+        order: 2 !important;
+        width: 100%;
+    }
+    .basketItems {
+        justify-content: center !important;
+    }
+    .merchandiseContent {
+        justify-content: center !important;
+    }
+}
+
+@media (max-width: 900px) {
+    .merchandiseContent {
+        max-width: 670px;
+        flex-wrap: wrap;
+        gap: 45px;
+    }
+}
+
+@media (max-width: 768px) {
+    .basketPrice {
+        justify-content: center !important;
+    }
+}
+
+@media (max-width: 576px) {
+    .selectedMerch .card {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 370px) {
+    .selectedMerch .card {
+        flex-direction: column;
+    }
+    .basketItemWrapper {
+        max-width: 360px;
+    }
+    .merchandiseContent {
+        display: block !important;
+    }
+    .merchandiseCountAndDelete {
+        display: block !important;
+    }
+    .merchandiseCount {
+        display: block !important;
+    }
+}
+
+

@@ -1,0 +1,50 @@
+.adminModals button {
+    width: 100% !important;
+}
+
+.adminModals button:hover {
+    color:#ffffff !important;
+}
+
+.UserListMakeAdmin {
+    font-size: 12px !important;
+    width: 180px !important;
+}
+
+.userListInfo {
+    max-width: 720px;
+    padding:20px;
+    margin-top:25px;
+}
+
+
+.userList h5{
+    text-align: center;
+}
+
+.OrdersContent {
+    margin: 0 auto;
+    max-width: 720px;
+}
+
+.ordersContentClient div button{
+    text-align: unset !important;
+}
+
+@media (max-width: 768px) {
+    .ordersContentWrapper {
+        justify-content: center !important;
+    }
+}
+
+@media (max-width: 450px) {
+    .userListInfo div {
+        flex-wrap: wrap !important;
+    }
+}
+
+@media (max-width: 280px) {
+    .userListInfo div p#email {
+        font-size: 12px;
+    }
+}

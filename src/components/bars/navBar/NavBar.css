@@ -1,0 +1,151 @@
+.logoLookon {
+    font-family: BebasNeue;
+    font-weight: 700;
+    font-size: 42px;
+    color: #222222;
+}
+
+.button_nav_center {
+    margin: 0 15px;
+}
+
+a {
+    text-decoration: none;
+}
+
+h2 {
+    margin: 0px !important;
+}
+
+.NavTypeBar {
+    padding: 15px 0px;
+}
+
+.navMenu {
+    background-color: #fafafa;
+    border-radius: 5px;
+    padding: 3px;
+    border: 2px solid #000000;
+    align-items: center;
+}
+
+.btnShop {
+    border: none;
+    background: #ccfe00;
+}
+
+.btnShop:hover {
+    border: none;
+    background: rgba(176, 255, 0);
+    box-shadow: 0 5px 20px rgba(176, 255, 0, 0.5);
+}
+
+.navigationActive {
+    background: rgb(0, 0, 0) !important;
+    color: white !important;
+}
+
+.btnLook {
+    border: 2px solid #000000;
+}
+
+.btnLook:hover {
+    background: #000000;
+    color: white !important;
+    border: 2px solid #000;
+}
+
+.navShop button {
+    margin: 0 5px;
+}
+
+.navigationToggle {
+    background: #f3f4f5;
+    border: none;
+    width: 60px !important;
+}
+
+.dropdownTypes {
+    background: #f3f4f5;
+    border: none;
+}
+
+.navbar div.dropdown {
+    display: none;
+}
+
+.dropdown-menu {
+    left: unset !important;
+    right: 0;
+}
+
+
+@media (max-width: 1200px) {
+    .navMenu {
+        display: none;
+    }
+    .navbar div.dropdown {
+        display: block;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-wrap: wrap !important;
+    }
+    .navShop {
+        padding-top: 10px;
+        order: 3;
+        margin: 0 auto;
+    }
+    .navbar div.dropdown {
+        margin-left: auto;
+    }
+}
+
+@media (max-width: 576px) {
+    .navbar .row {
+        justify-content: center;
+    }
+    .navbar .row > * {
+        width: unset;
+    }
+}
+
+@media (max-width: 493px) {
+    .shopFilter {
+        justify-content: center !important;
+    }
+    .searchFilter {
+        margin-top: 10px;
+    }
+    .searchFilter button{
+        margin: 15px auto !important;
+    }
+    .logoLookon {
+        padding-right: 50px;
+    }
+    .container {
+        justify-content: center !important;
+    }
+}
+
+
+@media (max-width: 370px) {
+    .navShop {
+        display: flex !important;
+        flex-direction: column;
+    }
+    .navShop button {
+        margin-top: 10px;
+    }
+    .navShop {
+        padding-top: 0px;
+    }
+}
+
+@media (max-width: 262px) {
+    .navbar div.dropdown {
+        margin-left: unset;
+    }
+}

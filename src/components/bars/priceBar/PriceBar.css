@@ -1,0 +1,23 @@
+.dropdownFilerPrice {
+    padding: 10px;
+}
+
+.dropdownFilerPrice input{
+    max-width: 85px;
+    height: 25px;
+}
+
+
+.dropdownFilerPrice span {
+    padding: 0px 5px;
+}
+
+.dropdownFilerPrice a {
+    all: unset !important;
+    margin-left: 15px !important;
+    width: 15% !important;
+    float: right;
+    font-size: 11px !important;
+    padding: 3px 10px !important;
+    border: 1px solid #222 !important;
+}

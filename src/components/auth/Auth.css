@@ -1,0 +1,47 @@
+.authPassword {
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0.375rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.userAuth .card form {
+    z-index: 100;
+}
+
+.userAuth .card {
+    padding: 30px;
+    background: none;
+}
+
+.userAuth .card:before {
+    position: absolute;
+    content: '';
+    background: inherit;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    box-shadow: inset 0 0 0 3000px rgba(180, 180, 180, 0.15);
+    filter: blur(10px);
+    border-radius: 15px;
+}
+
+.btnSignIn button {
+    color: white !important;
+}
+
+.btnSignIn #btnRegister {
+    font-size: 12px !important;
+}
